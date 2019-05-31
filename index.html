@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div id="map"></div>
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPWoZM9MsUrWvjgSM6lSy5csTr2Ej060s&callback=initMap" async defer></script>
+
+  <script>
+    window.cache = JSON.parse("{\"devices\":[{\"configuration\":{\"overrides\":{\"channels\":{\"2_4GHz\":{\"radio0\":null,\"radio1\":null},\"5GHz\":{\"radio0\":null,\"radio1\":null}},\"ht_mode\":{\"2_4GHz\":{\"radio0\":null,\"radio1\":null},\"5GHz\":{\"radio0\":null,\"radio1\":null}},\"tx_power\":{\"2_4GHz\":{\"radio0\":null,\"radio1\":null},\"5GHz\":{\"radio0\":null,\"radio1\":null}}},\"ssids\":[]},\"cpu_load\":null,\"description\":null,\"download\":0,\"firmware_version\":\"43d173cc7e0f535b6ad750e654e84c98\",\"id\":681,\"ip_addr\":{\"gateway\":\"10.63.0.1\",\"lan\":\"10.63.0.7\",\"wan\":\"61.92.199.78\"},\"last_checkin\":\"2019-05-20T07:47:23Z\",\"location\":{\"lat\":22.2675279953315,\"long\":114.152927901596},\"mac_addr\":\"ac:86:74:c7:8e:75\",\"memory\":{\"free\":190976000,\"total\":263507968},\"model\":\"PS8-L\",\"name\":\"PS8-L\",\"network_id\":1027,\"persistent_connection\":\"unavailable\",\"poe\":{\"free\":55,\"total\":55},\"ports\":{\"connected\":1,\"total\":8},\"status\":{\"dns_malfunction\":false,\"pairing_needed\":false},\"type\":\"switch\",\"upload\":0,\"uptime\":696},{\"configuration\":{\"overrides\":{\"channels\":{\"2_4GHz\":{\"radio0\":null,\"radio1\":null},\"5GHz\":{\"radio0\":null,\"radio1\":null}},\"ht_mode\":{\"2_4GHz\":{\"radio0\":null,\"radio1\":null},\"5GHz\":{\"radio0\":null,\"radio1\":null}},\"tx_power\":{\"2_4GHz\":{\"radio0\":null,\"radio1\":null},\"5GHz\":{\"radio0\":null,\"radio1\":null}}},\"ssids\":[437,438]},\"cpu_load\":0.08203125,\"description\":null,\"download\":0,\"firmware_version\":\"c34de57a9301b51bb741bffa9d56d0fe093e7c06\",\"id\":685,\"interfaces\":{\"radio\":{\"channels\":{\"2_4GHz\":{\"radio0\":5,\"radio1\":null},\"5GHz\":{\"radio0\":165,\"radio1\":44}},\"ht_mode\":{\"2_4GHz\":{\"radio0\":\"HT20\",\"radio1\":null},\"5GHz\":{\"radio0\":\"HT20\",\"radio1\":\"HT20\"}}}},\"ip_addr\":{\"gateway\":\"10.63.0.1\",\"lan\":\"10.63.0.10\",\"wan\":\"165.84.139.35\"},\"last_checkin\":\"2019-04-15T10:44:50Z\",\"location\":{\"lat\":22.2628988039691,\"long\":114.169782064855},\"mac_addr\":\"ac:86:74:d5:b7:c0\",\"memory\":{\"free\":134488064,\"total\":256909312},\"model\":\"A62\",\"name\":\"A62\",\"network_id\":1027,\"persistent_connection\":\"unavailable\",\"ports\":{\"connected\":1,\"total\":2},\"status\":{\"dns_malfunction\":false,\"pairing_needed\":false},\"type\":\"ap\",\"upload\":0,\"uptime\":1842},{\"configuration\":{\"overrides\":{\"channels\":{\"2_4GHz\":{\"radio0\":null,\"radio1\":null},\"5GHz\":{\"radio0\":null,\"radio1\":153}},\"ht_mode\":{\"2_4GHz\":{\"radio0\":null,\"radio1\":null},\"5GHz\":{\"radio0\":null,\"radio1\":\"VHT80\"}},\"tx_power\":{\"2_4GHz\":{\"radio0\":null,\"radio1\":null},\"5GHz\":{\"radio0\":null,\"radio1\":null}}},\"ssids\":[437,438]},\"cpu_load\":0.0380859375,\"description\":null,\"download\":0,\"firmware_version\":\"aa80dc7a895aafaff99f444c371c1d4eae8f0dfe\",\"id\":722,\"interfaces\":{\"radio\":{\"channels\":{\"2_4GHz\":{\"radio0\":5,\"radio1\":null},\"5GHz\":{\"radio0\":149,\"radio1\":44}},\"ht_mode\":{\"2_4GHz\":{\"radio0\":\"HT20\",\"radio1\":null},\"5GHz\":{\"radio0\":\"VHT80\",\"radio1\":\"HT20\"}}}},\"ip_addr\":{\"gateway\":\"10.63.0.1\",\"lan\":\"10.63.0.10\",\"wan\":\"61.92.199.78\"},\"last_checkin\":\"2019-05-26T11:37:52Z\",\"location\":{\"lat\":22.2613493814819,\"long\":114.176745414734},\"mac_addr\":\"ac:86:74:00:00:00\",\"memory\":{\"free\":96739328,\"total\":256909312},\"model\":\"PA2200\",\"name\":\"PA2200\",\"network_id\":1027,\"persistent_connection\":\"unavailable\",\"ports\":{\"connected\":1,\"total\":2},\"status\":{\"dns_malfunction\":false,\"pairing_needed\":false},\"type\":\"ap\",\"upload\":0,\"uptime\":4854},{\"configuration\":{\"overrides\":{\"channels\":{\"2_4GHz\":{\"radio0\":null,\"radio1\":null},\"5GHz\":{\"radio0\":null,\"radio1\":null}},\"ht_mode\":{\"2_4GHz\":{\"radio0\":null,\"radio1\":null},\"5GHz\":{\"radio0\":null,\"radio1\":null}},\"tx_power\":{\"2_4GHz\":{\"radio0\":null,\"radio1\":null},\"5GHz\":{\"radio0\":null,\"radio1\":null}}},\"ssids\":[437,438]},\"cpu_load\":0.02001953125,\"description\":null,\"download\":0,\"firmware_version\":\"742e701b0ac065fd8d179ea7831e0faf1cc721a4\",\"id\":728,\"interfaces\":{\"radio\":{\"channels\":{\"2_4GHz\":{\"radio0\":5,\"radio1\":null},\"5GHz\":{\"radio0\":null,\"radio1\":null}},\"ht_mode\":{\"2_4GHz\":{\"radio0\":\"HT20\",\"radio1\":null},\"5GHz\":{\"radio0\":null,\"radio1\":null}}}},\"ip_addr\":{\"gateway\":\"10.63.0.1\",\"lan\":\"10.63.0.6\",\"wan\":\"61.92.199.78\"},\"last_checkin\":\"2019-05-24T01:51:25Z\",\"location\":{\"lat\":22.2684838649448,\"long\":114.170545656234},\"mac_addr\":\"ac:86:74:00:38:00\",\"memory\":{\"free\":35786752,\"total\":61624320},\"model\":\"PA300\",\"name\":\"PA300\",\"network_id\":1027,\"persistent_connection\":\"unavailable\",\"ports\":{\"connected\":1,\"total\":2},\"status\":{\"dns_malfunction\":false,\"pairing_needed\":false},\"type\":\"ap\",\"upload\":0,\"uptime\":928}]}")
+  </script>
+</body>
+
+</html>
